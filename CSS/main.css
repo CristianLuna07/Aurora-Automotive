@@ -77,13 +77,26 @@ section {
   min-width: 0;
   flex: 1 1 10px;
   object-fit: cover;
-  opacity: .5;
+  opacity: 1;
   transition: .5s;
 }
 
 .gallery_image:hover {
   flex: 1 1 280px;
-  opacity: 1;
+  opacity: .5;
+}
+.img-content{
+  display: flex;
+  height: 200px;
+  margin-top: 25px;
+  width: 875px;
+  margin-inline: auto;
+}
+.text-img{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .section-header p {
@@ -93,6 +106,14 @@ section {
   line-height: 42px;
   font-weight: 700;
   color: #012970;
+}
+
+.banner-content{
+  position: absolute;
+  top:245px;
+  width: 100%;
+  color: black;
+  margin: 10px 100px 10px;  
 }
 
 @media (max-width: 768px) {
