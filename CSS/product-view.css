@@ -1,0 +1,52 @@
+body
+{
+    background-color: red;
+}
+
+#carinfo
+{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#carinfo span
+{
+    background-color: blueviolet;
+    float: left;
+    height: 31%;
+    width: 35%;
+    margin: 3% 0 0 5%;
+}
+/*ABOUT GALLERY CAR*/
+#gallery
+{
+    float: left;
+    margin: 0% 0% 0% 5%;
+    height: 700px;
+    width: 59%;
+}
+
+#closeupPhoto
+{
+    height: 550px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.541); 
+}
+
+#carrouselPhoto
+{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.384); 
+}
+
+/*ABOUT ABOUT HOW MUCH IT COSTS*/
+#expenseSummary
+{
+    float: right;
+    margin: 0% 3% 3% 3%;
+    height: 300px;
+    width: 30%;
+    background-color: rgba(0, 153, 255, 0.568);
+}
