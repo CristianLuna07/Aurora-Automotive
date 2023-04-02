@@ -15,143 +15,161 @@
 
 <body>
     <h2>Registro</h2>
+
     <form class="form-label" action="">
-        <di class="mb-3">
-            <label class="form-label" for="first_name">Nombre: </label>
-            <input class="form-control" type="text" name="first_name" id="first_name">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" for="last_name">Apellido: </label>
-                <input class="form-control" type="text" name="last_name" id="last_name">
-            </div>
-
-            <label for="state">Estado</label>
-            <div>
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                    <option value="0">----</option>
-                    <option value="1">Aguascalientes</option>
-                    <option value="2">Baja California</option>
-                    <option value="3">Baja California Sur</option>
-                    <option value="4">Campeche</option>
-                    <option value="5">Chiapas</option>
-                    <option value="6">Chihuahua</option>
-                    <option value="7">CDMX</option>
-                    <option value="8">Coahuila</option>
-                    <option value="9">Colima</option>
-                    <option value="10">Durango</option>
-                    <option value="11">Estado de Mexico</option>
-                    <option value="12">Guanajuato</option>
-                    <option value="13">Guerrero</option>
-                    <option value="14">Hidalgo</option>
-                    <option value="15">Jalisco</option>
-                    <option value="16">Michoacan</option>
-                    <option value="17">Morelos</option>
-                    <option value="18">Nayarit</option>
-                    <option value="19">Nuevo Leon</option>
-                    <option value="20">Oaxaca</option>
-                    <option value="21">Puebla</option>
-                    <option value="22">Queretaro</option>
-                    <option value="23">Quintana Roo</option>
-                    <option value="24">San Luis Potosi</option>
-                    <option value="25">Sinaloa</option>
-                    <option value="26">Sonora</option>
-                    <option value="27">Tabasco</option>
-                    <option value="28">Tamaulipas</option>
-                    <option value="29">Tlaxcala</option>
-                    <option value="30">Veracruz</option>
-                    <option value="31">Yucatan</option>
-                    <option value="32">Zacatecas</option>
-                </select>
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" for="street">Calle:</label>
-                <input class="form-control" type="text" name="street" id="street">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" for="num_house">Numero de Casa</label>
-                <input class="form-control" type="tel" name="num_house" id="num_house">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" for="postal">C.P.</label>
-                <input class="form-control" type="tel" name="postal" id="postal">
-            </div>
-
-            <!--MODAL DE PAGO-->
-
-            <!-- Button trigger modal -->
-            <label class="form-label">Metodo de Pago</label>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Agregar
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--------------->
-
-            <div class="mb-3">
-                <label class="form-label" for="email">Correo electronico</label>
-                <input class="form-control" type="email" name="email" id="email">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label" for="phone">Celular</label>
-                <input class="form-control" type="tel" name="phone" id="phone">
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="ww" id="ww">
-                <label class="form-check-label" for="ww">Terminos y Condiciones</label>
-            </div>
-
-            <button class="btn btn-primary" id="btn-warning">Enviar</button>
-    </form>
-
 
     <!--GRID-->
 
     <div class="container text-center">
         <div class="row">
           <div class="col">
-            1 of 2
+              <div class="mb-3">
+                  <label class="form-label" for="first_name">Nombre: </label>
+                  <input class="form-control" type="text" name="first_name" id="first_name">
+              </div>
           </div>
           <div class="col">
-            2 of 2
+              <div class="mb-3">
+                  <label class="form-label" for="last_name">Apellido: </label>
+                  <input class="form-control" type="text" name="last_name" id="last_name">
+              </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            1 of 3
+              <div class="mb-3">
+                  <label>Estado</label>
+                  <div>
+                      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                          <option value="0">----</option>
+                          <option value="1">Aguascalientes</option>
+                          <option value="2">Baja California</option>
+                          <option value="3">Baja California Sur</option>
+                          <option value="4">Campeche</option>
+                          <option value="5">Chiapas</option>
+                          <option value="6">Chihuahua</option>
+                          <option value="7">CDMX</option>
+                          <option value="8">Coahuila</option>
+                          <option value="9">Colima</option>
+                          <option value="10">Durango</option>
+                          <option value="11">Estado de Mexico</option>
+                          <option value="12">Guanajuato</option>
+                          <option value="13">Guerrero</option>
+                          <option value="14">Hidalgo</option>
+                          <option value="15">Jalisco</option>
+                          <option value="16">Michoacan</option>
+                          <option value="17">Morelos</option>
+                          <option value="18">Nayarit</option>
+                          <option value="19">Nuevo Leon</option>
+                          <option value="20">Oaxaca</option>
+                          <option value="21">Puebla</option>
+                          <option value="22">Queretaro</option>
+                          <option value="23">Quintana Roo</option>
+                          <option value="24">San Luis Potosi</option>
+                          <option value="25">Sinaloa</option>
+                          <option value="26">Sonora</option>
+                          <option value="27">Tabasco</option>
+                          <option value="28">Tamaulipas</option>
+                          <option value="29">Tlaxcala</option>
+                          <option value="30">Veracruz</option>
+                          <option value="31">Yucatan</option>
+                          <option value="32">Zacatecas</option>
+                      </select>
+                  </div>
+              </div>
           </div>
           <div class="col">
-            2 of 3
-          </div>
-          <div class="col">
-            3 of 3
+              <div class="mb-3">
+                  <label class="form-label" for="municipio">Municipio</label>
+                  <input class="form-control" type="tel" name="municipio" id="municipio">
+              </div>
           </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <label class="form-label" for="street">Calle:</label>
+                <input class="form-control" type="text" name="street" id="street">
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label class="form-label" for="num_house">Numero de Casa</label>
+                    <input class="form-control" type="tel" name="num_house" id="num_house">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label class="form-label" for="postal">C.P.</label>
+                    <input class="form-control" type="tel" name="postal" id="postal">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
+
+                <!--MODAL DE PAGO-->
+
+                <!-- Button trigger modal -->
+                <label class="form-label">Metodo de Pago</label>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Agregar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label class="form-label" for="email">Correo electronico</label>
+                    <input class="form-control" type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label class="form-label" for="phone">Celular</label>
+                    <input class="form-control" type="tel" name="phone" id="phone">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="ww" id="ww">
+                    <label class="form-check-label" for="ww">Terminos y Condiciones</label>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary" id="btn-warning">Enviar</button>
+            </div>
+        </div>
       </div>
+
+    </form>
 
 </body>
 
