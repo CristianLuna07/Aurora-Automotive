@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/product-view.css">
+    <script src="https://kit.fontawesome.com/cded4dadec.js" crossorigin="anonymous"></script>
     <title></title>
   </head>
 
@@ -19,20 +20,94 @@
     </header><!-- End Header -->
     
     <section id="carinfo">
-        <span>BRAND CAR, MODEL CAR</span>
-        <div id="gallery">
-          <div id="closeupPhoto">
-            <img src="" alt="">
+        <span>Audi RS 3 Sedán 2023</span>
+        <div id="gallery"> 
+          <div id="closeupPhoto" class="carousel slide" data-bs-ride="carousel"><!--Carousel-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/audi-rs3-sedan-2023(1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/audi-rs3-sedan-2023(2).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/audi-rs3-sedan-2023(3).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#closeupPhoto" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#closeupPhoto" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div><!--end of the Carousel-->
+          <div id="">
+            <div class="row m-0 bg-light">
+              <div class="col-md-4 col-6 ps-30 pe-0 my-4">
+                  <p class="text-muted">Mileage</p>
+                  <p class="h5">25000 Km</p>
+              </div>
+              <div class="col-md-4 col-6  ps-30 my-4">
+                  <p class="text-muted">Transmission</p>
+                  <p class="h5 m-0">Manual</p>
+              </div>
+              <div class="col-md-4 col-6 ps-30 my-4">
+                  <p class="text-muted">Drive unit</p>
+                  <p class="h5 m-0">Front</p>
+              </div>
+              <div class="col-md-4 col-6 ps-30 my-4">
+                  <p class="text-muted">Body</p>
+                  <p class="h5 m-0">Coupe</p>
+              </div>
+              <div class="col-md-4 col-6 ps-30 my-4">
+                  <p class="text-muted">Color</p>
+                  <p class="h5 m-0">White</p>
+              </div>
+              <div class="col-md-4 col-6 ps-30 my-4">
+                  <p class="text-muted">Daily UI</p>
+                  <p class="h5 m-0">#002</p>
+              </div>
           </div>
-          <div id="carrouselPhoto"></div>
+          </div>
         </div>
-        <div id="expenseSummary"> 
+        <div id="expenseSummary"> <!--PRECIO-->
+          <div class="d-flex justify-content-between mb-2">
+              <p class="textmuted">Quantity</p>
+              <p class="fs-14 fw-bold">1</p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+              <p class="textmuted">Subtotal</p>
+              <p class="fs-14 fw-bold"><span class="fas fa-dollar-sign pe-1">1,450</span></p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+              <p class="textmuted">Shipping</p>
+              <p class="fs-14 fw-bold">Free</p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+              <p class="textmuted">Promo code</p>
+              <p class="fs-14 fw-bold"><span class="fas fa-dollar-sign pe-1">-100</span></p>
+          </div>
+          <div class="d-flex justify-content-between mb-3">
+              <p class="textmuted fw-bold">Total</p>
+              <div class="d-flex align-text-top ">
+                  <span class="h4 fas fa-dollar-sign pe-1">1,350</span>
+              </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-12  mb-4 p-0">
+                <div class="btn btn-primary"><p class="text-center">Purchase</p>
+                </div>
+            </div>
+          </div>
         </div>
         <div id="description">
         </div>
         <div id="carFeatures">
         </div>        
         <div id="sellersInfo">
+          
         </div>
     </section>
 
