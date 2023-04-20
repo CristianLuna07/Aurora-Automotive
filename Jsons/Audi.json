@@ -1,0 +1,15 @@
+{
+    "carId":1,
+    "car":
+    {
+        "brand":"Audi",
+        "model":"RS 3 Sedán",
+        "edition":"2023",
+        "price":
+        {
+            "USD":50000.00,
+            "MXN":900850.00
+        },
+        "photos": "./img/audi-rs3-sedan-2023.jpg"
+    }
+}

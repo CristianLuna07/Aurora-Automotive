@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+#carinfo
+{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#carinfo span
+{
+    
+    float: left;
+    height: 5%;
+    width: 100%;
+    margin: 2% 0% 2% 5%;
+}
+/*ABOUT GALLERY CAR*/
+
+#gallery
+{
+    float: left;
+    margin: 0% 0% 0% 5%;
+    height: 60%;
+    width: 59%;
+}
+/*ABOUT CARROUSEL*/
+#carrouselPhoto
+{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.384); 
+}
+
+/*ABOUT ABOUT HOW MUCH IT COSTS*/
+#expenseSummary
+{
+    float: right;
+    margin: 0% 3% 8% 3%;
+    height: 20%;
+    width: 30%;
+}
+.btn.btn-primary {
+    width: 100%;
+    height: 55px;
+    border-radius: 0;
+    padding: 13px 100px;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+}
+.btn.btn-primary:hover .fas {
+    transform: translateX(10px);
+    transition: transform 0.5s ease
+}
+
+/*ABOUT DESCRIPCION*/
+#carFeature
+{
+    float: right;
+    margin: 0% 3% 1% 3%;
+    height: 20%;
+    width: 30%;
+
+}
+
+
+#sellersInfo
+{
+    float: right;
+    margin: 0% 3% 1% 3%;
+    height: 20%;
+    width: 30%;
+}

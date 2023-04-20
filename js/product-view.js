@@ -1,0 +1,1 @@
+document.onload.apply(this, arguments);
